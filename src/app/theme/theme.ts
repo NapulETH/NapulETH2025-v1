@@ -83,9 +83,6 @@ const theme = createTheme({
       disabled: "rgba(0, 0, 0, 0.38)",
     },
   },
-  shape: {
-    borderRadius: 16
-  },
   breakpoints: {
     values: {
       xs: 0,
