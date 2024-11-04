@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-const Aeonik = localFont({
+const URWGeometric = localFont({
   src: [
     { path: './fonts/URWGeometricExtraLight.woff2', weight: '100', style: 'normal' },
     { path: './fonts/URWGeometricThin.woff2', weight: '200', style: 'normal' },
@@ -31,7 +31,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={Aeonik.className} style={{ overflowX: 'hidden', backgroundColor: theme.palette.background.default }}>
+      <body className={URWGeometric.className} style={{ overflowX: 'hidden', backgroundColor: theme.palette.background.default }}>
         <ThemeWrapper>
           <AppRouterCacheProvider>
             <CssBaseline />
