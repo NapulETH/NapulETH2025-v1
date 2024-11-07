@@ -40,8 +40,8 @@ const theme = createTheme({
   palette: {
     text: {
       primary: "#000005",
-      secondary: "rgba(255, 255, 255, 0.7)",
-      disabled: "rgba(255, 255, 255, 0.38)",
+      secondary: "rgba(0, 0, 0, 0.7)",
+      disabled: "rgba(0, 0, 0, 0.38)",
     },
     primary: {
       main: "#1976D2",
@@ -83,6 +83,38 @@ const theme = createTheme({
       disabled: "rgba(0, 0, 0, 0.38)",
     },
   },
+  typography: {
+    fontFamily: 'URWGeometric',
+    h1: {
+      fontWeight: 700,
+      lineHeight: 'normal'
+    },
+    h2: {
+      fontWeight: 700,
+      lineHeight: 'normal'
+    },
+    h3: {
+      fontWeight: 700,
+      lineHeight: 'normal'
+    },
+    h4: {
+      fontWeight: 700,
+      lineHeight: 'normal'
+    },
+    h5: {
+      fontWeight: 700,
+      lineHeight: 'normal'
+    },
+
+    h6: {
+        fontWeight: 500,
+      lineHeight: 'normal'
+      },
+      subtitle1: {
+        fontWeight: 500,
+      lineHeight: 'normal'
+      }
+  },
   breakpoints: {
     values: {
       xs: 0,
@@ -98,28 +130,47 @@ const theme = createTheme({
         {
           props: { variant: "outlined" },
           style: {
-            backgroundImage: `linear-gradient(266.61deg, #6672B6 0%, #7783C8 50.4%, #8894D9 100%)`,
-            fontWeight: 500,
+            paddingX: "0.8rem",
+            paddingY: "0.6rem",
+            width: 'fit-content',
+            height: 'fit-content',
+            backgroundColor: "#FDC1FF",
+            fontWeight: 600,
+            color: "#000005",
             fontSize: "1.2rem",
-            boxShadow: "rgba(0, 0, 0, 0.25) 0px 4px 4px 1px",
+            boxShadow: "0px 2px 2px rgba(0, 0, 0, 0.25)",
             textTransform: "none",
             outline: "none",
             border: "none",
-            borderRadius: "0.8rem"
+            borderRadius: "10rem",
+            lineHeight: 'normal',
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center'
           }
         }
       ],
       styleOverrides: {
         root: {
-          backgroundImage: `linear-gradient(266.61deg, #6672B6 0%, #7783C8 50.4%, #8894D9 100%)`,
+          paddingX: "0.8rem",
+          paddingY: "0.6rem",
+          width: 'fit-content',
+          height: 'fit-content',
+          backgroundColor: "#FDC1FF",
           color: "#000005",
-          fontWeight: 500,
+          fontWeight: 600,
           fontSize: "1rem",
-          boxShadow: "rgba(0, 0, 0, 0.25) 0px 4px 4px 1px",
+          boxShadow: "0px 2px 2px rgba(0, 0, 0, 0.25)",
           outline: "none",
           border: "none",
-          borderRadius: "0.8rem",
+          borderRadius: "10rem",
           textTransform: "none",
+          lineHeight: 'normal',
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center'
         },
 
 
@@ -162,8 +213,16 @@ const theme = createTheme({
                 paddingRight: '.75rem',
                 paddingBottom: '.25rem',
                 paddingTop: '.25rem',
-                borderRadius: '2rem'
+                borderRadius: '2rem',
+                backgroundColor: 'rgba(0, 0, 0, 0.7)'
             },
+        }
+      },
+      MuiLink: {
+        styleOverrides: {
+          root: {
+            color: '#000005'
+          }
         }
       }
   },

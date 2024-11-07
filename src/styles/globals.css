@@ -1,3 +1,66 @@
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('./fonts/URWGeometricExtraLight.otf') format('opentype');
+  font-weight: 100; /* You can specify the font weight */
+  font-style: normal;  /* You can specify the font style (normal, italic, etc.) */
+}
+
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('./fonts/URWGeometricThin.otf') format('opentype');
+  font-weight: 200; /* You can specify the font weight */
+  font-style: normal;  /* You can specify the font style (normal, italic, etc.) */
+}
+
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('./fonts/URWGeometricLight.otf') format('opentype');
+  font-weight: 300; /* You can specify the font weight */
+  font-style: normal;  /* You can specify the font style (normal, italic, etc.) */
+}
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('./fonts/URWGeometricRegular.otf') format('opentype');
+  font-weight: 400; /* You can specify the font weight */
+  font-style: normal;  /* You can specify the font style (normal, italic, etc.) */
+}
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('./fonts/URWGeometricMedium.otf') format('opentype');
+  font-weight: 500; /* You can specify the font weight */
+  font-style: normal;  /* You can specify the font style (normal, italic, etc.) */
+}
+
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('./fonts/URWGeometricSemiBold.otf') format('opentype');
+  font-weight: 600; /* You can specify the font weight */
+  font-style: normal;  /* You can specify the font style (normal, italic, etc.) */
+}
+
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('./fonts/URWGeometricBold.otf') format('opentype');
+  font-weight: 700; /* You can specify the font weight */
+  font-style: normal;  /* You can specify the font style (normal, italic, etc.) */
+}
+
+@font-face {
+  font-family: 'URWGeometric';
+  src: url('./fonts/URWGeometricBlack.otf') format('opentype');
+  font-weight: 900; /* You can specify the font weight */
+  font-style: normal;  /* You can specify the font style (normal, italic, etc.) */
+}
+
+* {
+  font-family: 'URWGeometric', sans-serif;
+}
+
+body {
+  font-family: 'URWGeometric', sans-serif;
+}
+
+
 .cls-1 {
     fill: #1d4f8b;
   }
@@ -8108,4 +8171,18 @@
 
   .heroScene{
     opacity: 0.1 !important;
+  }
+
+  #circularText {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 0.5 !important;
+  }
+  
+  @keyframes rotate {
+    to {
+      transform: rotate(1turn);
+    }
   }

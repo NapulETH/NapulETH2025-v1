@@ -13,14 +13,14 @@ export const metadata: Metadata = {
 
 const URWGeometric = localFont({
   src: [
-    { path: './fonts/URWGeometricExtraLight.woff2', weight: '100', style: 'normal' },
-    { path: './fonts/URWGeometricThin.woff2', weight: '200', style: 'normal' },
-    { path: './fonts/URWGeometricLight.woff2', weight: '300', style: 'normal' },
-    { path: './fonts/URWGeometricRegular.woff2', weight: '400', style: 'normal' },
-    { path: './fonts/URWGeometricMedium.woff2', weight: '500', style: 'normal' },
-    { path: './fonts/URWGeometricSemiBold.woff2', weight: '600', style: 'normal' },
-    { path: './fonts/URWGeometricBold.woff2', weight: '700', style: 'normal' },
-    { path: './fonts/URWGeometricBlack.woff2', weight: '900', style: 'normal' },
+    { path: './fonts/URWGeometricExtraLight.otf', weight: '100', style: 'normal' },
+    { path: './fonts/URWGeometricThin.otf', weight: '200', style: 'normal' },
+    { path: './fonts/URWGeometricLight.otf', weight: '300', style: 'normal' },
+    { path: './fonts/URWGeometricRegular.otf', weight: '400', style: 'normal' },
+    { path: './fonts/URWGeometricMedium.otf', weight: '500', style: 'normal' },
+    { path: './fonts/URWGeometricSemiBold.otf', weight: '600', style: 'normal' },
+    { path: './fonts/URWGeometricBold.otf', weight: '700', style: 'normal' },
+    { path: './fonts/URWGeometricBlack.otf', weight: '900', style: 'normal' },
   ],
   display: 'swap',
 });

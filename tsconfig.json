@@ -29,6 +29,7 @@
       "@sections/*": ["src/app/sections/*"],
       "@components/*": ["src/app/components/*"],
 			"@assets/*": ["src/app/assets/*"],
+      "@data/*": ["src/app/data/*"],
       "@theme/*": ["src/app/theme/*"],
       "@styles/*": ["src/app/styles/*"],
     }
