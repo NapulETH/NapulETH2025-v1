@@ -5,7 +5,6 @@ import theme from "@theme/theme";
 import Image from "next/image";
 import { TopSponsorsList } from "@data/TopSponsors";
 import Marquee from "react-fast-marquee";
-
 import logo from '@assets/logo.webp'
 
 
@@ -25,7 +24,7 @@ const TopSponsors2024 = () => {
             <Stack width={'40%'} justifyContent={'space-between'} paddingBottom={2}>
                 <Stack gap={1}>
                     <Image src={logo} alt="" height={60} width={34}></Image>
-                    <Typography variant="h4">Top Speakers</Typography>
+                    <Typography variant="h4">Top Sponsors</Typography>
                     <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2024</Typography>
                 </Stack>
                 <Stack gap={1}>

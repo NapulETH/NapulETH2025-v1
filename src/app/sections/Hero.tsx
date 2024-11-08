@@ -1,8 +1,6 @@
 import { Stack } from "@mui/material";
 import theme from "@theme/theme";
 
-import Scene from '@assets/scene.svg'
-
 import Navbar from "@components/Navbar";
 
 const HeroSection = () => {
@@ -14,7 +12,6 @@ const HeroSection = () => {
                 borderRadius: '1.4rem',
                 position: 'absolute',
             }}>
-                <Scene />
             </Stack>
             <Navbar />
         </Stack>

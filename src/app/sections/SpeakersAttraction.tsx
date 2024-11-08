@@ -4,7 +4,7 @@ import Link from '@mui/material/Link';
 import Image from "next/image";
 
 import bg from "@assets/img1.webp"
-import Calendar from '@assets/calendar.svg'
+import calendar from '@assets/calendar.webp'
 
 import CallMadeIcon from '@mui/icons-material/CallMade';
 
@@ -85,13 +85,13 @@ const AttractSpeakers = () => {
                             <Typography variant="h5" paddingX={1}>Check 2024 agenda</Typography>
                         </Button>
                     </Stack>
-                    <Stack height={'100%'} width={'100%'} style={{
+                    <Stack height={'100%'} width={'100%'} alignItems={'center'} justifyContent={'center'} style={{
                         position: 'absolute',
                         top: '50%',
                         left: '50%',
                         transform: 'translate(-50%, -50%)'
                     }}>
-                        <Calendar />
+                        <Image src={calendar} alt="event agenda calendar napuleth 2024" height={300} width={300}></Image>
                     </Stack>
                 </Stack>
             </Stack>

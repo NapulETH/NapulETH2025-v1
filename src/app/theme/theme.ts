@@ -24,7 +24,7 @@ interface PaletteOptions {
 
 }
 
-export interface Theme {
+interface Theme {
     palette: {
   ne_purple: { primary: string };
   ne_rose: { primary: string };

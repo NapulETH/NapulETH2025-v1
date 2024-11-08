@@ -1,10 +1,11 @@
 import { Stack, Typography } from "@mui/material";
 import theme from "@theme/theme";
+import Image from "next/image";
 
 import vid from '@assets/vid.webp'
 import talk from '@assets/talk.webp'
-import CircularText from '@assets/CircularText.svg'
 import attendee from '@assets/attendee.webp'
+import circularText from '@assets/CircularText.webp'
 
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import CallMadeIcon from '@mui/icons-material/CallMade';
@@ -50,6 +51,10 @@ const Stats2024 = () => {
                         }}>
                             <Stack id="circularText" width={'80%'} borderRadius={'50%'} padding={1.5} sx={{
                                 backgroundColor: theme.palette.background.default,
+                                backgroundImage: `url('${circularText.src}')`,
+                                backgroundPosition: 'center',
+                                backgroundSize: '90%',
+                                backgroundRepeat: 'no-repeat',
                                 aspectRatio: 1,
                                 animation: "spin 10s linear infinite",
                                 "@keyframes spin": {
@@ -61,7 +66,6 @@ const Stats2024 = () => {
                                     },
                                 },
                             }}>
-                                <CircularText />
                             </Stack>
                             <Stack width={'50%'} alignItems={'center'} justifyContent={'center'} position={'absolute'} top={'50%'} left={'50%'} borderRadius={'50%'} gap={1} sx={{
                                 backgroundColor: theme.palette.ne_rose.main,

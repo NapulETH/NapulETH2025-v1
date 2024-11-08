@@ -1,7 +1,7 @@
 import { CssBaseline } from "@mui/material";
 import { type Metadata } from "next";
 import localFont from 'next/font/local';
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
+import { Inter } from 'next/font/google'
 import ThemeWrapper from "@theme/ThemeWrapper";
 import theme from "@theme/theme";
 
@@ -33,10 +33,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={URWGeometric.className} style={{ overflowX: 'hidden', backgroundColor: theme.palette.background.default }}>
         <ThemeWrapper>
-          <AppRouterCacheProvider>
             <CssBaseline />
             {children}
-          </AppRouterCacheProvider>
         </ThemeWrapper>
       </body>
     </html>
