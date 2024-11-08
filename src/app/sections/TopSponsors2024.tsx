@@ -17,7 +17,7 @@ interface Sponsor {
     link: string;
 }
 
-const TopSpeakers = () => {
+const TopSponsors2024 = () => {
 
     const colors = ["#EDD4FE", "#FDC1FF", "#AEE8FE", "#F7E78E", "#BCFBC2", "#6FBDE2"];
 
@@ -102,4 +102,4 @@ const TopSpeakers = () => {
     )
 }
 
-export default TopSpeakers
+export default TopSponsors2024
