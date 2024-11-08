@@ -1,13 +1,12 @@
 'use client'
 
-import { Stack, Typography, Paper } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import theme from "@theme/theme";
 import Image from "next/image";
 import { TopSponsorsList } from "@data/TopSponsors";
 import Marquee from "react-fast-marquee";
 
 import logo from '@assets/logo.webp'
-import Mood from '@assets/mood.svg'
 
 
 

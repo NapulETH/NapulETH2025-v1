@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Box, Container, Stack } from "@mui/material";
 
 import HeroSection from "@sections/Hero";
